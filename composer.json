@@ -21,16 +21,16 @@
   },
   "autoload": {
 	"psr-4": {
-	  "m3skalina\\TCPDF\\": "src/"
+	  "M3skalina\\TCPDF\\": "src/"
 	}
   },
   "extra": {
       "laravel": {
           "providers": [
-              "m3skalina\\TCPDF\\ServiceProvider"
+              "M3skalina\\TCPDF\\ServiceProvider"
           ],
           "aliases": {
-              "PDF": "m3skalina\\TCPDF\\Facades\\TCPDF"
+              "PDF": "M3skalina\\TCPDF\\Facades\\TCPDF"
           }
       }
   }
