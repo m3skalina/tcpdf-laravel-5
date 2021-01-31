@@ -1,6 +1,6 @@
 <?php
 
-namespace Elibyy\TCPDF;
+namespace M3skalina\TCPDF;
 
 use Illuminate\Support\Facades\Config;
 
