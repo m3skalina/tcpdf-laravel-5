@@ -1,0 +1,37 @@
+
+{
+  "name": "m3skalina/tcpdf-laravel-5",
+  "description": "tcpdf support for laravel 5",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+	"laravel",
+	"tcpdf",
+	"pdf"
+  ],
+  "authors": [
+	{
+	  "name": "Fabio La Farcioli",
+	  "email": "m3skalina@gmail.com"
+	}
+  ],
+  "require": {
+	"illuminate/support": "5.8.*",
+	"m3skalina/tcpdf": "6.2.*"
+  },
+  "autoload": {
+	"psr-4": {
+	  "m3skalina\\TCPDF\\": "src/"
+	}
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "m3skalina\\TCPDF\\ServiceProvider"
+          ],
+          "aliases": {
+              "PDF": "m3skalina\\TCPDF\\Facades\\TCPDF"
+          }
+      }
+  }
+}
