@@ -1,8 +1,8 @@
 
 {
   "name": "m3skalina/tcpdf-laravel-5",
+  "version": "1.0.0",
   "description": "tcpdf support for laravel 5",
-  "minimum-stability": "dev",
   "license": "MIT",
   "keywords": [
 	"laravel",
